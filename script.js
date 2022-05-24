@@ -9,16 +9,16 @@ function carregar (){
     
    
     if ( hora >= 0 && hora <= 12 ){
-        foto.src = `manha.png` 
+        foto.src = `img/manha.png` 
         document.body.style.background = `#006400`
     }
     else if ( hora >= 13 && hora < 18){
-        foto.src = `tarde.png`
+        foto.src = `img/tarde.png`
         document.body.style.background = `#8B4726`
     }
 
     else {
-        foto.src =`noite.png`
+        foto.src =`img/noite.png`
         document.body.style.background = `#363636`
     }
 
