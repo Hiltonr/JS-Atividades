@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de tabuada</title>
+    <link rel="stylesheet" href="tabuada.css" >
+    <script src="tabuada.js"> </script>
+
+</head>
+<body">
+        <header> <h1>Tabuada</h1></header>
+    
+    <section>
+        
+        <div id="principal">     
+            <p>
+                Número 
+                <input type="number" name="txt"  id="txt">
+                <input type="button"  value="Gerar tabuada"  onclick ="gerar()">
+            </p>                                                 
+            
+        </div>
+        
+        <div id="res"> 
+            <select name="sel" id="seltabu" size="10"> 
+                <option>Digite um número acima</option> <!-- option sem value para não aparecer como opção, aparecendo como texto -->
+            </select>                                   <!-- option são as opções dentro do select e o value q tem nelas são as opções descritas ex brasil, argentina -->
+        
+        </div>
+        
+    </section>       
+    <footer>
+        <p>&copy; Hilton Randys</p>
+    </footer>
+    
+</body>    
+</html>
+
