@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projetocep.css" >
+    <title>Consulta Cep</title>
+</head>
+<body>
+
+    <header>
+        <h1>DIGITE SEU CEP</h1>
+    </header>
+    
+    <section id="principal">
+    
+                <div class="conteudo">
+                    <form action="">
+                        <input type="text" id="text" value="" name="name" placeholder="Ex: 59602-118 ">  <br>
+                       <button onclick="BuscarCep(event)" > Buscar</button>
+                                   
+                    </form>
+                </div>
+
+                <div id="cont">
+                   <h3 id="cepnum">CEP:</h3>
+                   <h3 id="logradouro">LOGRADOURO:</h3>
+                   <h3 id="localidade">LOCALIDADE</h3>
+                   <h3 id="bairro">BAIRRO:</h3>
+                   <h3 id="ddd">DDD:</h3>
+                </div>
+            </section>
+            
+ <script src="cep.js"></script>
+
+</body>
+</html>
